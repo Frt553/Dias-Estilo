@@ -1,11 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  typescript: {
-    ignoreBuildErrors: true,
-  },
+  output: "export",
+  basePath: "/Dias-Estilo",
   images: {
-    unoptimized: true,
+    unoptimized: true
   },
-}
+  trailingSlash: true
+};
 
-export default nextConfig
+export default nextConfig;
